@@ -1,0 +1,614 @@
+{
+  "size": {
+    "pico": {
+      "value": "1px",
+      "description": "Smallest size token, typically for very thin lines or minimal spacing.",
+      "type": "sizing"
+    },
+    "nano": {
+      "value": "2px",
+      "description": "Second smallest size token, slightly larger than pico.",
+      "type": "sizing"
+    },
+    "micro": {
+      "value": "4px",
+      "description": "Standard small size, commonly used for tiny gaps or borders.",
+      "type": "sizing"
+    },
+    "compact": {
+      "value": "8px",
+      "description": "Compact size, useful for tighter layouts or smaller elements.",
+      "type": "sizing"
+    },
+    "extraSmall": {
+      "value": "12px",
+      "description": "Extra small size, often used for text or small padding.",
+      "type": "sizing"
+    },
+    "small": {
+      "value": "14px",
+      "description": "Small size, bridging the gap between extraSmall and medium.",
+      "type": "sizing"
+    },
+    "medium": {
+      "value": "16px",
+      "description": "Medium size, a versatile unit for regular spacing.",
+      "type": "sizing"
+    },
+    "large": {
+      "value": "24px",
+      "description": "Large size, used for significant spacing or larger elements.",
+      "type": "sizing"
+    },
+    "extraLarge": {
+      "value": "32px",
+      "description": "Extra large size, often for major gaps or large elements.",
+      "type": "sizing"
+    },
+    "giant": {
+      "value": "40px",
+      "description": "Giant size, suitable for large spacing or oversized components.",
+      "type": "sizing"
+    },
+    "titan": {
+      "value": "48px",
+      "description": "Titan size, used for very large elements or wide gaps.",
+      "type": "sizing"
+    },
+    "colossus": {
+      "value": "64px",
+      "description": "Colossus size, the largest token for maximum spacing or massive elements.",
+      "type": "sizing"
+    }
+  },
+  "space": {
+    "pico": {
+      "value": "1px",
+      "description": "Smallest size token, typically for very thin lines or minimal spacing.",
+      "type": "spacing"
+    },
+    "nano": {
+      "value": "2px",
+      "description": "Second smallest size token, slightly larger than pico.",
+      "type": "spacing"
+    },
+    "micro": {
+      "value": "4px",
+      "description": "Standard small size, commonly used for tiny gaps or borders.",
+      "type": "spacing"
+    },
+    "compact": {
+      "value": "8px",
+      "description": "Compact size, useful for tighter layouts or smaller elements.",
+      "type": "spacing"
+    },
+    "extraSmall": {
+      "value": "12px",
+      "description": "Extra small size, often used for text or small padding.",
+      "type": "spacing"
+    },
+    "small": {
+      "value": "14px",
+      "description": "Small size, bridging the gap between extraSmall and medium.",
+      "type": "spacing"
+    },
+    "medium": {
+      "value": "16px",
+      "description": "Medium size, a versatile unit for regular spacing.",
+      "type": "spacing"
+    },
+    "large": {
+      "value": "24px",
+      "description": "Large size, used for significant spacing or larger elements.",
+      "type": "spacing"
+    },
+    "extraLarge": {
+      "value": "32px",
+      "description": "Extra large size, often for major gaps or large elements.",
+      "type": "spacing"
+    },
+    "giant": {
+      "value": "40px",
+      "description": "Giant size, suitable for large spacing or oversized components.",
+      "type": "spacing"
+    },
+    "titan": {
+      "value": "48px",
+      "description": "Titan size, used for very large elements or wide gaps.",
+      "type": "spacing"
+    },
+    "colossus": {
+      "value": "64px",
+      "description": "Colossus size, the largest token for maximum spacing or massive elements.",
+      "type": "spacing"
+    }
+  },
+  "color": {
+    "function": {
+      "primary": {
+        "darkest": {
+          "value": "#0D47A1",
+          "description": "Darkest shade of primary color.",
+          "type": "color"
+        },
+        "action": {
+          "value": "#1565C0",
+          "description": "Primary action color for buttons.",
+          "type": "color"
+        },
+        "normal": {
+          "value": "#1976D2",
+          "description": "Regular primary color.",
+          "type": "color"
+        },
+        "active": {
+          "value": "#1E88E5",
+          "description": "Color for active primary elements.",
+          "type": "color"
+        },
+        "lightest": {
+          "value": "#BBDEFB",
+          "description": "Lightest shade of primary color.",
+          "type": "color"
+        }
+      },
+      "secondary": {
+        "darkest": {
+          "value": "#004D40",
+          "description": "Darkest shade of secondary color.",
+          "type": "color"
+        },
+        "action": {
+          "value": "#00695C",
+          "description": "Secondary action color for buttons.",
+          "type": "color"
+        },
+        "normal": {
+          "value": "#00796B",
+          "description": "Regular secondary color.",
+          "type": "color"
+        },
+        "active": {
+          "value": "#00897B",
+          "description": "Color for active secondary elements.",
+          "type": "color"
+        },
+        "lightest": {
+          "value": "#B2DFDB",
+          "description": "Lightest shade of secondary color.",
+          "type": "color"
+        }
+      }
+    },
+    "feedback": {
+      "info": {
+        "darkest": {
+          "value": "#0D47A1",
+          "description": "Darkest shade of info color.",
+          "type": "color"
+        },
+        "action": {
+          "value": "#1565C0",
+          "description": "Action color for info feedback.",
+          "type": "color"
+        },
+        "normal": {
+          "value": "#2196F3",
+          "description": "Regular info color.",
+          "type": "color"
+        },
+        "active": {
+          "value": "#64B5F6",
+          "description": "Active state of info color.",
+          "type": "color"
+        },
+        "lightest": {
+          "value": "#BBDEFB",
+          "description": "Lightest shade of info color.",
+          "type": "color"
+        }
+      },
+      "success": {
+        "darkest": {
+          "value": "#1B5E20",
+          "description": "Darkest shade of success color.",
+          "type": "color"
+        },
+        "action": {
+          "value": "#388E3C",
+          "description": "Action color for success feedback.",
+          "type": "color"
+        },
+        "normal": {
+          "value": "#4CAF50",
+          "description": "Regular success color.",
+          "type": "color"
+        },
+        "active": {
+          "value": "#81C784",
+          "description": "Active state of success color.",
+          "type": "color"
+        },
+        "lightest": {
+          "value": "#C8E6C9",
+          "description": "Lightest shade of success color.",
+          "type": "color"
+        }
+      },
+      "warning": {
+        "darkest": {
+          "value": "#FF6F00",
+          "description": "Darkest shade of warning color.",
+          "type": "color"
+        },
+        "action": {
+          "value": "#FFA000",
+          "description": "Action color for warning feedback.",
+          "type": "color"
+        },
+        "normal": {
+          "value": "#FFC107",
+          "description": "Regular warning color.",
+          "type": "color"
+        },
+        "active": {
+          "value": "#FFD54F",
+          "description": "Active state of warning color.",
+          "type": "color"
+        },
+        "lightest": {
+          "value": "#FFECB3",
+          "description": "Lightest shade of warning color.",
+          "type": "color"
+        }
+      },
+      "danger": {
+        "darkest": {
+          "value": "#B71C1C",
+          "description": "Darkest shade of danger color.",
+          "type": "color"
+        },
+        "action": {
+          "value": "#D32F2F",
+          "description": "Action color for danger feedback.",
+          "type": "color"
+        },
+        "normal": {
+          "value": "#F44336",
+          "description": "Regular danger color.",
+          "type": "color"
+        },
+        "active": {
+          "value": "#E57373",
+          "description": "Active state of danger color.",
+          "type": "color"
+        },
+        "lightest": {
+          "value": "#FFCDD2",
+          "description": "Lightest shade of danger color.",
+          "type": "color"
+        }
+      }
+    },
+    "neutrals": {
+      "5": {
+        "value": "#FAFAFA",
+        "description": "Almost white neutral color.",
+        "type": "color"
+      },
+      "10": {
+        "value": "#F5F5F5",
+        "description": "Light neutral for backgrounds.",
+        "type": "color"
+      },
+      "15": {
+        "value": "#EEEEEE",
+        "description": "Slightly darker neutral color.",
+        "type": "color"
+      },
+      "20": {
+        "value": "#E0E0E0",
+        "description": "Light gray for dividers or cards.",
+        "type": "color"
+      },
+      "30": {
+        "value": "#BDBDBD",
+        "description": "Neutral gray for text or borders.",
+        "type": "color"
+      },
+      "40": {
+        "value": "#9E9E9E",
+        "description": "Medium gray.",
+        "type": "color"
+      },
+      "50": {
+        "value": "#757575",
+        "description": "Default dark gray for text.",
+        "type": "color"
+      },
+      "60": {
+        "value": "#616161",
+        "description": "Darker gray for components.",
+        "type": "color"
+      },
+      "70": {
+        "value": "#424242",
+        "description": "Dark neutral for strong emphasis.",
+        "type": "color"
+      },
+      "80": {
+        "value": "#212121",
+        "description": "Very dark gray for high contrast.",
+        "type": "color"
+      },
+      "90": {
+        "value": "#121212",
+        "description": "Almost black for rich accents.",
+        "type": "color"
+      },
+      "95": {
+        "value": "#000000",
+        "description": "Pure black for text or backgrounds.",
+        "type": "color"
+      }
+    }
+  },
+  "border": {
+    "width": {
+      "thin": {
+        "value": "1px",
+        "description": "Thin border for subtle accents.",
+        "type": "border"
+      },
+      "light": {
+        "value": "2px",
+        "description": "Light border for general use.",
+        "type": "border"
+      },
+      "regular": {
+        "value": "3px",
+        "description": "Standard border width.",
+        "type": "border"
+      },
+      "bold": {
+        "value": "4px",
+        "description": "Bold border for strong emphasis.",
+        "type": "border"
+      }
+    },
+    "radii": {
+      "circular": {
+        "value": "9999px",
+        "description": "Fully rounded borders.",
+        "type": "border"
+      }
+    }
+  },
+  "typograph": {
+    "fontSize": {
+      "small": {
+        "value": "12px",
+        "description": "Small text size.",
+        "type": "fontSizes"
+      },
+      "medium": {
+        "value": "16px",
+        "description": "Default text size.",
+        "type": "fontSizes"
+      },
+      "large": {
+        "value": "24px",
+        "description": "Large text size for headings.",
+        "type": "fontSizes"
+      }
+    }
+  },
+  "component": {
+    "button": {
+      "stencil": {
+        "borderRadius": {
+          "value": "4px",
+          "type": "borderRadius"
+        }
+      },
+      "medium": {
+        "padding-vertical": {
+          "value": "8px",
+          "type": "spacing"
+        },
+        "padding-horizontal": {
+          "value": "16px",
+          "type": "spacing"
+        },
+        "gap": {
+          "value": "8px",
+          "type": "spacing"
+        },
+        "height": {
+          "value": "40px",
+          "type": "sizing"
+        },
+        "fontSize": {
+          "value": "16px",
+          "description": "",
+          "type": "fontSizes"
+        },
+        "iconSize": {
+          "value": "20px",
+          "description": "",
+          "type": "sizing"
+        }
+      },
+      "small": {
+        "padding-vertical": {
+          "value": "8px",
+          "type": "spacing"
+        },
+        "padding-horizontal": {
+          "value": "16px",
+          "type": "spacing"
+        },
+        "gap": {
+          "value": "8px",
+          "type": "spacing"
+        },
+        "height": {
+          "value": "36px",
+          "type": "sizing"
+        },
+        "fontSize": {
+          "value": "12px",
+          "description": "",
+          "type": "fontSizes"
+        },
+        "iconSize": {
+          "value": "14px",
+          "description": "",
+          "type": "sizing"
+        }
+      },
+      "large": {
+        "padding-vertical": {
+          "value": "8px",
+          "type": "spacing"
+        },
+        "padding-horizontal": {
+          "value": "16px",
+          "type": "spacing"
+        },
+        "gap": {
+          "value": "8px",
+          "type": "spacing"
+        },
+        "height": {
+          "value": "48px",
+          "type": "sizing"
+        },
+        "fontSize": {
+          "value": "16px",
+          "description": "",
+          "type": "fontSizes"
+        },
+        "iconSize": {
+          "value": "20px",
+          "description": "",
+          "type": "sizing"
+        }
+      },
+      "primary": {
+        "normal": {
+          "background": {
+            "value": "{color.function.primary.normal}",
+            "description": "Alias for primary button background color.",
+            "type": "color"
+          },
+          "borderColor": {
+            "value": "{color.function.primary.action}",
+            "description": "Alias for primary button border color.",
+            "type": "color"
+          },
+          "borderWidth": {
+            "value": "{border.width.regular}",
+            "description": "Width of button border.",
+            "type": "borderWidth"
+          },
+          "ContentColor": {
+            "value": "{color.function.primary.lightest}",
+            "description": "Alias for primary button text color.",
+            "type": "color"
+          }
+        },
+        "hover": {
+          "background": {
+            "value": "{color.function.primary.action}",
+            "description": "Alias for primary button background color.",
+            "type": "color"
+          },
+          "borderColor": {
+            "value": "{color.function.primary.action}",
+            "description": "Alias for primary button border color.",
+            "type": "color"
+          },
+          "borderWidth": {
+            "value": "{border.width.regular}",
+            "description": "Width of button border.",
+            "type": "borderWidth"
+          },
+          "ContentColor": {
+            "value": "{color.function.primary.lightest}",
+            "description": "Alias for primary button text color.",
+            "type": "color"
+          }
+        },
+        "active": {
+          "background": {
+            "value": "{color.function.primary.active}",
+            "description": "Alias for primary button background color.",
+            "type": "color"
+          },
+          "borderColor": {
+            "value": "{color.function.primary.active}",
+            "description": "Alias for primary button border color.",
+            "type": "color"
+          },
+          "borderWidth": {
+            "value": "{border.width.regular}",
+            "description": "Width of button border.",
+            "type": "borderWidth"
+          },
+          "ContentColor": {
+            "value": "{color.function.primary.lightest}",
+            "description": "Alias for primary button text color.",
+            "type": "color"
+          }
+        },
+        "focus": {
+          "background": {
+            "value": "{color.function.primary.action}",
+            "description": "Alias for primary button background color.",
+            "type": "color"
+          },
+          "borderColor": {
+            "value": "{color.function.primary.action}",
+            "description": "Alias for primary button border color.",
+            "type": "color"
+          },
+          "borderWidth": {
+            "value": "{border.width.regular}",
+            "description": "Width of button border.",
+            "type": "borderWidth"
+          },
+          "ContentColor": {
+            "value": "{color.function.primary.lightest}",
+            "description": "Alias for primary button text color.",
+            "type": "color"
+          }
+        }
+      },
+      "danger": {
+        "normal": {
+          "background": {
+            "value": "{color.feedback.danger.normal}",
+            "description": "Alias for danger button background color.",
+            "type": "color"
+          },
+          "borderColor": {
+            "value": "{color.feedback.danger.action}",
+            "description": "Alias for danger button border color.",
+            "type": "color"
+          },
+          "ContentColor": {
+            "value": "{color.feedback.danger.lightest}",
+            "description": "Alias for danger button text color.",
+            "type": "color"
+          },
+          "borderWidth": {
+            "value": "{border.width.regular}",
+            "description": "Width of danger button border.",
+            "type": "borderWidth"
+          }
+        }
+      }
+    }
+  }
+}
