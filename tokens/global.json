@@ -128,9 +128,9 @@
       "function": {
         "primary": {
           "darkest": {
-            "value": "#0D47A1",
-            "description": "Darkest shade of primary color.",
-            "type": "color"
+            "value": "#8a96a7",
+            "type": "color",
+            "description": "Darkest shade of primary color."
           },
           "action": {
             "value": "#1565C0",
